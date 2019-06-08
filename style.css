@@ -101,5 +101,13 @@ header nav * {
 
 
 .jumbotron {
-	padding-top: 70px;
+	background: url("resources/images/jumbotron-bg.jpg") center no-repeat;
+	height: 60vh;
+	text-align: center;
+	padding: 70px 0 0;
+	color: #fff;
+}
+
+.jumbotron h1 {
+	font-size: 2.7rem;
 }
