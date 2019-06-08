@@ -3,3 +3,103 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+@font-face {
+	font-family: 'NHaasGroteskTXPro-bold';
+	src: url('resources/fonts/NHaasGroteskTXPro-bold.ttf');  
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3 {
+	font-family: 'NHaasGroteskTXPro-bold';
+}
+
+a {
+	text-decoration: none;
+}
+
+.main_padding {padding: 0 10%;}
+
+.float_sx {float: left;}
+.float_dx {float: right;}
+
+.h_center {
+	top: 50%;
+	transform: translate(0%, -50%);
+	position: absolute;
+}
+
+
+
+header nav {
+	height: 70px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 0;
+	background-color: white;
+}
+
+header nav * {
+	display: inline-block;
+}
+
+.header-logo {
+	position: relative;
+	padding-left: 10%;
+}
+
+.header-logo img {
+	height: 13px;
+}
+
+.header-nav {
+	position: relative;
+	padding-right: 10%;
+}
+
+.header-nav ul {
+	margin: 0 10px;
+}
+
+.header-nav ul li {
+	margin: 0 13px;
+	float: right;
+}
+
+.header-nav ul li a {
+	text-transform: uppercase;
+	color: black;
+	font-size: 0.65rem;
+	font-weight: 600;
+}
+
+/*Divisori tra le lingue*/
+#ita_lang:after {
+	content: '';
+	height: 1rem;
+	width: 2px;
+	background-color: #000;
+	position: absolute;
+	right: 155px;
+	top: 5.5px;
+}
+
+#ita_lang:before {
+	content: '';
+	height: 1rem;
+	width: 2px;
+	background-color: #000;
+	position: absolute;
+	right: 196px;
+	top: 5.5px;
+}
+
+
+
+.jumbotron {
+	padding-top: 70px;
+}
