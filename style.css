@@ -17,9 +17,9 @@ h1,h2,h3 {
 	font-family: 'NHaasGroteskTXPro-bold';
 }
 
-a {
-	text-decoration: none;
-}
+h2 {font-size: 1.9rem}
+
+a {text-decoration: none;}
 
 .main_padding {padding: 0 10%;}
 
@@ -172,7 +172,6 @@ header nav * {
 
 .howitworks-content h2 {
 	width: 200px;
-	font-size: 1.9rem;
 }
 
 .howitworks-content .howitworks-phone {
@@ -183,4 +182,33 @@ header nav * {
 .howitworks-content .howitworks-step h4 {
 	font-size: 1.2rem;
 	display: block;
+}
+
+
+
+/*# # # SEZIONE PUZZLE 3 RIQUADRI # # #*/
+.puzzle-section *{
+	color: #fff;
+	text-align: center;
+}
+
+.puzzle-section_helbiz {
+	background: url("resources/images/puzzle-helbiz.jpg") no-repeat;
+	background-size: cover;
+	background-position: 25%;
+	height: 400px;
+}
+
+.puzzle-section_phone {
+	background: url("resources/images/puzzle-phone.png") bottom no-repeat, linear-gradient(#41566a,#252f38) 50% no-repeat;
+	background-size: 80%, 100%;
+	width: 48%;
+	height: 400px;
+}
+
+.puzzle-section_city {
+	background: url("resources/images/puzzle-city.jpg") no-repeat;
+	background-size: cover;
+	width: 48%;
+	height: 400px;
 }
