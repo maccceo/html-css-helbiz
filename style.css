@@ -21,6 +21,8 @@ h2 {font-size: 1.9rem}
 
 a {text-decoration: none;}
 
+ul{list-style-type: none;}
+
 .main_padding {padding: 0 10%;}
 
 .float_sx {float: left;}
@@ -238,4 +240,51 @@ header nav * {
 .social-section_text img {
 	height: 25px;
 	margin: 10px 10px 0;
+}
+
+
+
+/*# # # FOOTER # # #*/
+
+footer {
+	background-color: #000;
+
+}
+
+footer * {
+		color: #fff;
+}
+
+footer .col {
+	width: 25%;
+}
+
+footer p {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+footer a {
+	font-size: 0.8rem;
+}
+
+footer .grey>li>a {
+	color: #5D5D5D;
+}
+
+.footer-contacts {
+	border-top: 1px #222 solid;
+	border-bottom: 1px #222 solid;
+}
+
+#social-icons>a>img {
+	height: 23px;
+}
+
+.footer-contacts a {
+	font-size: 0.85rem;
+}
+
+#link-app-store {
+	text-align: center;
 }
