@@ -50,10 +50,9 @@ ul{list-style-type: none;}
 header nav {
 	height: 70px;
 	width: 100%;
+	background-color: white;
 	position: fixed;
 	top: 0;
-	padding: 0;
-	background-color: white;
 }
 
 header nav * {
@@ -116,7 +115,7 @@ header nav * {
  /*# # # JUMBOTRON # # #*/
 
 .jumbotron {
-	height: 60vh;
+	height: 550px;
 	background: url("resources/images/jumbotron-bg.jpg") center no-repeat;
 	color: #fff;
 	text-align: center;
@@ -127,7 +126,13 @@ header nav * {
 	font-size: 2.7rem;
 }
 
+.jumbotron-title {
+	padding-top: 140px;
+}
 
+.jumbotron-title p {
+	padding: 15px 0;
+}
 
  /*# # # SEZIONE PRODOTTI # # #*/
 
@@ -135,22 +140,30 @@ header nav * {
 	background-color: #fff;
 	color: #000;
 	text-align: center;
+	padding: 60px 10%;
 }
 
 .products-section .col {
 	background-color: #fafafa;
-	border: 1px solid grey;
 }
 
 .products-section .float_sx,.products-section .float_dx {
 	width: 48%;
+	padding: 90px 60px;
 }
 
-.products-section .col .product-title {
+
+.products-section-link,.products-section-link a {
+	color: #4998D7;
+	padding: 14px 0 20px;
+}
+
+.product-title {
 	height: 20px;
+	margin-bottom: 20px;
 }
 
-.products-section .col .product-image {
+.product-image {
 	width: 170px;
 }
 
