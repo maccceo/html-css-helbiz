@@ -53,6 +53,7 @@ header nav {
 	background-color: white;
 	position: fixed;
 	top: 0;
+	z-index: 100;
 }
 
 header nav * {
@@ -199,6 +200,7 @@ header nav * {
 	top: -360px;
 	left: 50%;
 	transform: translate(-50%, 0%);
+	z-index: 40;
 }
 
 .howitworks-content .howitworks-step {
@@ -222,6 +224,14 @@ header nav * {
 	text-align: center;
 }
 
+.puzzle-section p {
+	padding: 15px 0 25px;
+}
+
+.puzzle-section a {
+	text-decoration: underline;
+}
+
 .puzzle-section_helbiz {
 	background: url("resources/images/puzzle-helbiz.jpg") no-repeat;
 	background-size: cover;
@@ -234,6 +244,7 @@ header nav * {
 	background-size: 80%, 100%;
 	width: 48%;
 	height: 400px;
+	margin: 30px 0;
 }
 
 .puzzle-section_city {
@@ -241,6 +252,15 @@ header nav * {
 	background-size: cover;
 	width: 48%;
 	height: 400px;
+	margin: 30px 0;
+}
+
+.puzzle-section_phone h2,.puzzle-section_city h2 {
+	padding-top: 40px;
+}
+
+.puzzle-section_helbiz .puzzle-section_container {
+	padding: 120px 100px 0 460px;
 }
 
 
