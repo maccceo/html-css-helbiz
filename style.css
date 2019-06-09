@@ -187,6 +187,7 @@ header nav * {
 
 
 /*# # # SEZIONE PUZZLE 3 RIQUADRI # # #*/
+
 .puzzle-section *{
 	color: #fff;
 	text-align: center;
@@ -211,4 +212,30 @@ header nav * {
 	background-size: cover;
 	width: 48%;
 	height: 400px;
+}
+
+
+
+/*# # # SEZIONE SOCIAL # # #*/
+.social-section {
+	background: url("resources/images/social-bg.jpg") center no-repeat;
+	background-size: cover;
+	height: 420px;
+	position: relative;
+}
+
+.social-section_text {
+	background-color: #fff;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	text-align: center;
+	padding: 53px 73px;
+}
+
+.social-section_text img {
+	height: 25px;
+	margin: 10px 10px 0;
 }
