@@ -145,6 +145,7 @@ header nav * {
 
 .products-section .col {
 	background-color: #fafafa;
+	height: 580px;
 }
 
 .products-section .float_sx,.products-section .float_dx {
@@ -179,6 +180,8 @@ header nav * {
 }
 
 .howitworks-content {
+	position: relative;
+	padding: 90px 180px 130px 160px;
 }
 
 .howitworks-content * {
@@ -187,16 +190,27 @@ header nav * {
 
 .howitworks-content h2 {
 	width: 200px;
+	font-size: 2.1rem;
 }
 
 .howitworks-content .howitworks-phone {
-	height: 100px;
+	height: 600px;
+	position: absolute;
+	top: -360px;
+	left: 50%;
+	transform: translate(-50%, 0%);
 }
 
+.howitworks-content .howitworks-step {
+	padding-top: 30px;
+	width: 140px;
+	float: right;
+}
 
 .howitworks-content .howitworks-step h4 {
 	font-size: 1.2rem;
 	display: block;
+	padding-bottom: 20px;
 }
 
 
