@@ -80,16 +80,8 @@ header nav * {display: inline-block;}
 	font-weight: 600;
 }
 
-/*Divisori tra le lingue, posizionati male al momento*/
-#ita_lang:after {
-	content: '';
-	height: 1rem;
-	width: 2px;
-	background-color: #000;
-	position: absolute;
-	right: 155px;
-	top: 5.5px;
-}
+/*Divisori tra le lingue*/
+#language {position: relative;}
 
 #ita_lang:before {
 	content: '';
@@ -97,7 +89,17 @@ header nav * {display: inline-block;}
 	width: 2px;
 	background-color: #000;
 	position: absolute;
-	right: 196px;
+	right: 69%;
+	top: 5.5px;
+}
+
+#ita_lang:after {
+	content: '';
+	height: 1rem;
+	width: 2px;
+	background-color: #000;
+	position: absolute;
+	right: 37%;
 	top: 5.5px;
 }
 
