@@ -9,20 +9,36 @@
 	src: url('resources/fonts/NHaasGroteskTXPro-bold.ttf');  
 }
 
-body {font-family: 'Open Sans', sans-serif;}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
 
-h1,h2,h3 {font-family: 'NHaasGroteskTXPro-bold';}
+h1,h2,h3 {
+	font-family: 'NHaasGroteskTXPro-bold';
+}
 
-h2 {font-size: 1.9rem}
+h2 {
+	font-size: 1.9rem
+}
 
-a {text-decoration: none;}
+a {
+	text-decoration: none;
+}
 
-ul{list-style-type: none;}
+ul{
+	list-style-type: none;
+}
 
-.main_padding {padding: 0 10%;}
+.main_padding {
+	padding: 0 10%;
+}
 
-.float_sx {float: left;}
-.float_dx {float: right;}
+.float_sx {
+	float: left;
+}
+.float_dx {
+	float: right;
+}
 
 .clearfix::after {
 	content: "";
@@ -49,24 +65,30 @@ header nav {
 	background-color: white;
 	position: fixed;
 	top: 0;
-	z-index: 100;
+	z-index: 10;
 }
 
-header nav * {display: inline-block;}
+header nav * {
+	display: inline-block;
+}
 
 .header-logo {
 	position: relative;
 	padding-left: 10%;
 }
 
-.header-logo img {height: 13px;}
+.header-logo img {
+	height: 13px;
+}
 
 .header-nav {
 	position: relative;
 	padding-right: 10%;
 }
 
-.header-nav ul {margin: 0 10px;}
+.header-nav ul {
+	margin: 0 10px;
+}
 
 .header-nav ul li {
 	margin: 0 13px;
@@ -81,7 +103,9 @@ header nav * {display: inline-block;}
 }
 
 /*Divisori tra le lingue*/
-#language {position: relative;}
+#language {
+	position: relative;
+}
 
 #ita_lang:before {
 	content: '';
@@ -115,11 +139,17 @@ header nav * {display: inline-block;}
 	padding: 70px 0 0;
 }
 
-.jumbotron h1 {font-size: 2.7rem;}
+.jumbotron h1 {
+	font-size: 2.7rem;
+}
 
-.jumbotron-title {padding-top: 140px;}
+.jumbotron-title {
+	padding-top: 140px;
+}
 
-.jumbotron-title p {padding: 15px 0;}
+.jumbotron-title p {
+	padding: 15px 0;
+}
 
  /*# # # SEZIONE PRODOTTI # # #*/
 
@@ -149,7 +179,9 @@ header nav * {display: inline-block;}
 	margin-bottom: 20px;
 }
 
-.product-image {width: 170px;}
+.product-image {
+	width: 170px;
+}
 
 
 
@@ -168,7 +200,9 @@ header nav * {display: inline-block;}
 	padding: 90px 180px 130px 160px;
 }
 
-.howitworks-content * {display: inline-block;}
+.howitworks-content * {
+	display: inline-block;
+}
 
 .howitworks-content h2 {
 	width: 200px;
@@ -181,7 +215,7 @@ header nav * {display: inline-block;}
 	top: -360px;
 	left: 50%;
 	transform: translate(-50%, 0%);
-	z-index: 40;		/*per farlo stare sotto la navbar*/
+	z-index: 1;		/*per farlo stare sotto la navbar*/
 }
 
 /*div con Step 1 e descrizione*/
@@ -206,9 +240,13 @@ header nav * {display: inline-block;}
 	text-align: center;
 }
 
-.puzzle-section p {padding: 15px 0 25px;}
+.puzzle-section p {
+	padding: 15px 0 25px;
+}
 
-.puzzle-section a {text-decoration: underline;}
+.puzzle-section a {
+	text-decoration: underline;
+}
 
 /*proprietà in comune ai 3 riquadri*/
 .piece {
@@ -277,32 +315,48 @@ header nav * {display: inline-block;}
 
 /*# # # FOOTER # # #*/
 
-footer {background-color: #000;}
+footer {
+	background-color: #000;
+}
 
-footer * {color: #fff;}
+footer * {
+	color: #fff;
+}
 
-footer .col {width: 25%;}
+footer .col {
+	width: 25%;
+}
 
 footer p {
 	text-transform: uppercase;
 	font-weight: 600;
 }
 
-footer a {font-size: 0.8rem;}
+footer a {
+	font-size: 0.8rem;
+}
 
-footer .grey>li>a {color: #5D5D5D;}
+footer .grey>li>a {
+	color: #5D5D5D;
+}
 
 /*1^ riga con gli ul*/
-.sitemap {padding: 70px 0;}
+.sitemap {
+	padding: 70px 0;
+}
 
 .sitemap #logo {
 	position: relative;
 	top: 2px;
 }
 
-.sitemap p {margin-bottom: 12px;}
+.sitemap p {
+	margin-bottom: 12px;
+}
 
-.sitemap li {margin-bottom: 6px}
+.sitemap li {
+	margin-bottom: 6px;
+}
 
 /*2^ riga con icone social e altri link*/
 .footer-contacts {
@@ -311,9 +365,13 @@ footer .grey>li>a {color: #5D5D5D;}
 	border-bottom: 1px #222 solid;
 }
 
-#social-icons>a>img {height: 23px;}
+#social-icons>a>img {
+	height: 23px;
+}
 
-.footer-contacts a {font-size: 0.85rem;}
+.footer-contacts a {
+	font-size: 0.85rem;
+}
 
 /*3^ riga con bottoni per gli store Apple e Android*/
 #link-app-store {
@@ -321,4 +379,6 @@ footer .grey>li>a {color: #5D5D5D;}
 	text-align: center;
 }
 
-#link-app-store a:first-child {padding-right: 10px;}
+#link-app-store a:first-child {
+	padding-right: 10px;
+}
